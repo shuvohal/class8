@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.col-1{
+  width: 8.33%;
+ 
+  
+}
+
+.col-2{
+ width: 16.66%;
+}
+
+.col-3{
+    width: 25%;
+  }
+
+  .col-4{
+    width: 33.33%;
+  }
+
+  .col-5{
+    width: 41.33%;
+  }
+
+  .col-6{
+    width:50%;
+  }
+
+  .col-7{
+    width: 58.33%;
+  }
+
+  .col-8{
+    width: 66.66%;
+  }
+
+  .col-9{
+    width: 75%;
+  }
+
+  .col-10{
+    width: 83.33%;
+  }
+
+  .col-11{
+    width: 91.66%;
+    
+    
+  
+    
+  }
+
+  .col-12{
+    width: 100%;
+   
+    
+    
+    
+  }
+
+  [class*='col-']{
+    border: 0px solid black;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  .row:after{
+    content: '';
+    clear: both;
+    display: block;
+  }
+
+  .logo-height{
+    height: 200px;
+    background-color:orangered;
+  }
+
+  .banner-height{
+    height: 200px;
+    background-color:palegoldenrod;
+  }
+
+ 
+  
+
+  .menu-height{
+    height: 50px;
+    background-color: red;
+  }
+
+  .logo{
+
+    height: 100%;
+    width: 100%;
+  }
+
+  .banner{
+    height: 100%;
+    width: 100%;
+  }
+ 
+  ul{
+    list-style-type: none;
+  }
+
+  ul li{
+    float: left;
+    padding-left: 10px;
+    padding-top: 15px;
+    
+    
+  }
+
+  ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  
+  ul li a:hover{
+    color: blue;
+    background-color: blanchedalmond;
+    border-radius: 8px 0 0 8px;
+    transition: 2s;
+  }
+  .text-size{
+    text-align: center;
+  }
+  .servise-image{
+    height: 250px;
+    width: 350px;
+  }
+  .servise{
+    border: 1px solid red;
+    box-shadow: 10px 8px 8px 10px red;
+  }
+  p{
+    text-align: center;
+  }
+  
